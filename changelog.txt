@@ -1,0 +1,30 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+Date: 2026. 11. 02
+  Features:
+    - The launcher can now fire any rocket ammo, including explosive rockets, atomic bombs and modded rockets. It loads the best rocket type in the inventory, and the loaded ammo shows on the launcher in the armor grid.
+    - Added a per-player rocket priority setting.
+    - Added a per-player setting to allow atomic rockets (off by default), and a startup setting for the atomic minimum range.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 2026. 11. 02
+  Bugfixes:
+    - Fixed the launcher firing with no rockets in the inventory. It now loads one rocket at a time from the inventory and no longer uses armor grid power.
+  Changes:
+    - Renamed the item, equipment and recipe to wp-personal-rocket-launcher-equipment to avoid name collisions with other mods. Existing saves are migrated.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 2026. 11. 02
+  Changes:
+    - Rebuilt on the personal defense equipment base, so range, damage and shooting speed show in the tooltip.
+    - Uses standard rockets from the main inventory, one per shot, and stops firing when there are none.
+    - Rocket damage and shooting speed research now apply.
+    - Removed the atomic rocket option and the ammo blacklist.
+  Features:
+    - Quality increases range (+10% per level) and damage (+30% per level).
+    - Range and cooldown are now startup settings.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2026. 11. 01
+  Features:
+    - Created Rocket Launcher Equipment mod.

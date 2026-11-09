@@ -1,0 +1,9 @@
+{
+  "name": "WePlayRocketLauncherEquipment",
+  "version": "0.3.3",
+  "title": "WePlay: Personal Rocket Launcher Equipment",
+  "author": "WePlay",
+  "factorio_version": "2.1",
+  "dependencies": ["base >= 2.1.0", "? space-exploration", "? quality"],
+  "description": "Armor equipment that automatically fires rockets at nearby enemies, using rockets from your inventory."
+}

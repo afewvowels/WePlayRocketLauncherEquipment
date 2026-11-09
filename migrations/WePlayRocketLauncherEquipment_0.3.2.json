@@ -1,0 +1,36 @@
+{
+  "item": [
+    [
+      "personal-rocket-launcher-equipment",
+      "wp-personal-rocket-launcher-equipment"
+    ]
+  ],
+  "recipe": [
+    [
+      "personal-rocket-launcher-equipment",
+      "wp-personal-rocket-launcher-equipment"
+    ]
+  ],
+  "equipment": [
+    [
+      "personal-rocket-launcher-equipment",
+      "wp-personal-rocket-launcher-equipment"
+    ],
+    [
+      "personal-rocket-launcher-equipment-q-uncommon",
+      "wp-personal-rocket-launcher-equipment-q-uncommon"
+    ],
+    [
+      "personal-rocket-launcher-equipment-q-rare",
+      "wp-personal-rocket-launcher-equipment-q-rare"
+    ],
+    [
+      "personal-rocket-launcher-equipment-q-epic",
+      "wp-personal-rocket-launcher-equipment-q-epic"
+    ],
+    [
+      "personal-rocket-launcher-equipment-q-legendary",
+      "wp-personal-rocket-launcher-equipment-q-legendary"
+    ]
+  ]
+}
