@@ -1,9 +1,13 @@
 {
   "name": "WePlayRocketLauncherEquipment",
-  "version": "0.3.3",
+  "version": "0.4.0",
   "title": "WePlay: Personal Rocket Launcher Equipment",
   "author": "WePlay",
   "factorio_version": "2.1",
-  "dependencies": ["base >= 2.1.0", "? space-exploration", "? quality"],
-  "description": "Armor equipment that automatically fires rockets at nearby enemies, using rockets from your inventory."
+  "dependencies": [
+    "base >= 2.1.0",
+    "? space-exploration",
+    "? quality"
+  ],
+  "description": "Armor and vehicle equipment that turns your suit, spidertron or car into an automatic rocket gun. Fires rockets and missiles at nearby enemies, including atomic and modded ammo like Krastorio 2's heavy rockets, pulling ammo straight from your inventory or the vehicle's trunk."
 }

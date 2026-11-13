@@ -1,4 +1,23 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 2026-11-13
+  Features:
+    - Launchers now work in spidertron and car equipment grids, taking rockets from the vehicle's trunk. Vehicles use the driver's rocket settings; with no driver they never fire atomic rockets.
+    - Added a map setting for how often launchers are checked and reloaded (default every 10 ticks).
+    - Fires a much wider range of modded rockets: any ammo with "rocket" or "missile" in its name or ammo category that fires a projectile, such as Krastorio 2's heavy and turret rockets. Each uses its own ammo category's damage and shooting speed research.
+  Changes:
+    - Launchers take a whole stack of rockets at a time instead of one. The stack goes back to the inventory when the launchers are toggled off, when the last launcher is removed, or when the settings no longer allow that rocket.
+    - Removing a loaded launcher now gives its rocket back, with the same quality.
+    - Normal quality rockets are used before higher quality ones, and toggling off gives back the same quality that was loaded. Rocket quality doesn't change damage; launcher quality does.
+  Bugfixes:
+    - Rockets that hold several shots per item, like some modded rockets, now fire every shot instead of using a whole item per shot. Leftover shots go back as a partly used item.
+  Optimizations:
+    - Only equipment grids that contain launchers are checked, and each one on its own tick, which spreads the work out in multiplayer.
+    - A grid with no rockets waits until its inventory changes (or 2 seconds for vehicles) before looking again.
+  Graphics:
+    - Launchers that need ammo now show dimmed in the equipment grid with a red no-ammo icon. Loaded launchers still show the icon of the rocket they're holding.
+    - Added padding around the thumbnail.
+---------------------------------------------------------------------------------------------------
 Version: 0.3.3
 Date: 2026. 11. 02
   Features:
